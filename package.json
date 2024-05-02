@@ -1,8 +1,8 @@
 {
   "name": "react-accessibility",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "description": "An React Accessibility Widget that allows users to change sites visual changes",
-  "author": "Stefan Trinh",
+  "author": "Johnneijzen, Stefan Trinh",
   "private": false,
   "license": "MIT",
   "keywords": [
@@ -19,34 +19,34 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefantrinh1/react-accessibility.git"
+    "url": "https://github.com/johnneijzen/react-accessibility.git"
   },
   "bugs": {
-    "url": "https://github.com/stefantrinh1/react-accessibility/issues"
+    "url": "https://github.com/johnneijzen/react-accessibility/issues"
   },
   "homepage": "https://react-accessibility-widget.netlify.app",
   "peerDependencies": {
-    "react": ">= 16.8",
-    "react-dom": ">= 16.8"
+    "react": ">= 18.3.1",
+    "react-dom": ">= 18.3.1"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react-dropdown": "^1.9.2",
-    "react-scripts": "4.0.3",
-    "react-switch": "^6.0.0",
-    "styled-components": "^5.3.3",
-    "web-vitals": "^1.0.1"
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.6",
+    "@testing-library/user-event": "^14.5.2",
+    "react-dropdown": "^1.11.0",
+    "react-scripts": "5.0.1",
+    "react-switch": "^7.0.0",
+    "styled-components": "^6.1.9",
+    "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
     "cross-env": "^7.0.3",
-    "react": ">= 16.8",
-    "react-dom": ">= 16.8"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -73,6 +73,6 @@
     ]
   },
   "resolutions": {
-    "styled-components": "^5"
+    "styled-components": "^6"
   }
 }

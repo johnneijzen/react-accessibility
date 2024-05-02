@@ -4,13 +4,13 @@
       "@babel/env",
       {
         "targets": {
-          "edge": "17",
-          "firefox": "60",
-          "chrome": "67",
-          "safari": "11.1"
+          "edge": "94",
+          "firefox": "93",
+          "chrome": "95",
+          "safari": "15"
         },
         "useBuiltIns": "usage",
-        "corejs": "3.6.5"
+        "corejs": "3.18.3"
       }
     ],
     "@babel/preset-react"
