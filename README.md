@@ -24,7 +24,7 @@ i.e for users that are color blind, the widget will change text colors across th
 
 ## Compatibility
 
-IMPORTANT: Under the hood, this lib makes use of hooks, therefore, using it requires React >= 16.8.
+IMPORTANT: Under the hood, this lib makes use of hooks, therefore, using it requires React >= 18.
 
 ## Installation
 
