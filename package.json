@@ -1,6 +1,6 @@
 {
   "name": "react-accessibility-johnneijzen",
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "An React Accessibility Widget that allows users to change sites visual changes",
   "author": "Johnneijzen, Stefan Trinh",
   "private": false,
@@ -26,8 +26,8 @@
   },
   "homepage": "https://react-accessibility-widget.netlify.app",
   "peerDependencies": {
-    "react": ">= 18.3.1",
-    "react-dom": ">= 18.3.1"
+    "react": ">= 18",
+    "react-dom": ">= 18"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -47,6 +47,10 @@
     "cross-env": "^7.0.3",
     "react": "18.3.1",
     "react-dom": "18.3.1"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.38"
   },
   "scripts": {
     "start": "react-scripts start",
