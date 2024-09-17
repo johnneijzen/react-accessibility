@@ -31,13 +31,13 @@ IMPORTANT: Under the hood, this lib makes use of hooks, therefore, using it requ
 In the command prompt run:
 
 ```
-npm install react-accessibility --save
+npm install react-accessibility-johnneijzen --save
 ```
 
 Alternatively you may use yarn:
 
 ```
-yarn add react-accessibility
+yarn add react-accessibility-johnneijzen 
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ yarn add react-accessibility
 import a single component and use in your JSX
 
 ```
-import { AccessibilityWidget } from 'react-accessibility';
+import { AccessibilityWidget } from 'react-accessibility-johnneijzen ';
 ```
 
 ```
